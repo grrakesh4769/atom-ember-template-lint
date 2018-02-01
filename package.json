@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Ember template linter",
   "keywords": [],
-  "repository": "https://github.com/atom/atom-ember-template-lint",
+  "repository": "https://github.com/grrakesh4769/atom-ember-template-lint",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
