@@ -1,8 +1,8 @@
 {
   "name": "atom-ember-template-lint",
   "main": "./lib/atom-ember-template-lint",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "Ember template linter",
   "keywords": [],
   "repository": "https://github.com/atom/atom-ember-template-lint",
   "license": "MIT",
@@ -10,6 +10,15 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "ember-template-lint": "^0.8.14"
-  }
+    "atom-linter": "^10.0.0",
+    "ember-template-lint": "^0.8.14",
+    "loophole": "^1.1.0"
+  },
+  "providedServices": {
+   "linter": {
+     "versions": {
+       "1.0.0": "provideLinter"
+     }
+   }
+ }
 }

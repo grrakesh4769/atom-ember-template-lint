@@ -1,26 +1,2 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Lint Ember Template",
-        "command": "atom-ember-template-lint:lint"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "Atom Ember Template Lint",
-          "submenu": [
-            {
-              "label": "Template Lint",
-              "command": "atom-ember-template-lint:lint"
-            }
-          ]
-        }
-      ]
-    }
-  ]
 }

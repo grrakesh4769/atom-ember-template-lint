@@ -59,6 +59,15 @@ async@^1.4.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
 
+atom-linter@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/atom-linter/-/atom-linter-10.0.0.tgz#d27bb74e5f8f08a74a40beb29ee1a50d97543c89"
+  dependencies:
+    named-js-regexp "^1.3.1"
+    sb-exec "^4.0.0"
+    sb-promisify "^2.0.1"
+    tmp "~0.0.28"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -110,6 +119,12 @@ color-name@^1.1.1:
 concat-map@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
+
+consistent-env@^1.2.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/consistent-env/-/consistent-env-1.3.1.tgz#f68234d7c69fc6dd9656f8ae23429ce0499b65fb"
+  dependencies:
+    lodash.uniq "^4.5.0"
 
 decamelize@^1.0.0:
   version "1.2.0"
@@ -186,6 +201,10 @@ lazy-cache@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
 
+lodash.uniq@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.uniq/-/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
+
 lodash@^4.11.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
@@ -193,6 +212,10 @@ lodash@^4.11.1:
 longest@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
+
+loophole@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/loophole/-/loophole-1.1.0.tgz#37949fea453b6256acc725c320ce0c5a7f70a2bd"
 
 minimatch@^3.0.4:
   version "3.0.4"
@@ -203,6 +226,10 @@ minimatch@^3.0.4:
 minimist@~0.0.1:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
+
+named-js-regexp@^1.3.1:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/named-js-regexp/-/named-js-regexp-1.3.3.tgz#a2eb1655c74cb82213a4fc82777dfb67b895d8c8"
 
 once@^1.3.0:
   version "1.4.0"
@@ -216,6 +243,10 @@ optimist@^0.6.1:
   dependencies:
     minimist "~0.0.1"
     wordwrap "~0.0.2"
+
+os-tmpdir@~1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
 
 path-is-absolute@^1.0.0:
   version "1.0.1"
@@ -241,6 +272,29 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
+sb-exec@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/sb-exec/-/sb-exec-4.0.0.tgz#46747f0df162626c16ebf0fea42245ad1aa859ca"
+  dependencies:
+    consistent-env "^1.2.0"
+    lodash.uniq "^4.5.0"
+    sb-npm-path "^2.0.0"
+
+sb-memoize@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/sb-memoize/-/sb-memoize-1.0.2.tgz#128375c62ddb9cc4ffa905d0c5a597c19baead8e"
+
+sb-npm-path@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/sb-npm-path/-/sb-npm-path-2.0.0.tgz#0f6cc2cf371debca7d936ed76b7d4c3cc1eb3d58"
+  dependencies:
+    sb-memoize "^1.0.2"
+    sb-promisify "^2.0.1"
+
+sb-promisify@^2.0.1:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
+
 simple-html-tokenizer@^0.4.1:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.4.3.tgz#9b00b766e30058b4bb377c0d4f97566a13ab1be1"
@@ -264,6 +318,12 @@ supports-color@^4.0.0:
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-4.5.0.tgz#be7a0de484dec5c5cddf8b3d59125044912f635b"
   dependencies:
     has-flag "^2.0.0"
+
+tmp@~0.0.28:
+  version "0.0.33"
+  resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
+  dependencies:
+    os-tmpdir "~1.0.2"
 
 uglify-js@^2.6:
   version "2.8.29"
