@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle atom-ember-template-lint",
-        "command": "atom-ember-template-lint:toggle"
+        "label": "Lint Ember Template",
+        "command": "atom-ember-template-lint:lint"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "atom-ember-template-lint",
+          "label": "Atom Ember Template Lint",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-ember-template-lint:toggle"
+              "label": "Template Lint",
+              "command": "atom-ember-template-lint:lint"
             }
           ]
         }
