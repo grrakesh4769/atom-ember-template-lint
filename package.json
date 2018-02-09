@@ -1,7 +1,7 @@
 {
   "name": "atom-ember-template-lint",
   "main": "./lib/atom-ember-template-lint",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Ember template linter",
   "keywords": [],
   "repository": "https://github.com/grrakesh4769/atom-ember-template-lint",
