@@ -3,8 +3,8 @@ Atom linter for Ember templates
 
 Usage:
 
-1)First ensure the "linter" package by steelbrain(Search for "base linter") is installed with all its dependencies
+This package requires the "linter" package by steelbrain(Search for "base linter")-->Will be installed automatically if not already available
 
-2)Search and install "atom-ember-template-lint"
+1)Search and install "atom-ember-template-lint"
 
-3)Ensure the project has a .template-lintrc.js file
+2)Ensure the project has a .template-lintrc.js file
