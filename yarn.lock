@@ -68,6 +68,20 @@ atom-linter@^10.0.0:
     sb-promisify "^2.0.1"
     tmp "~0.0.28"
 
+atom-package-deps@^4.6.1:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-4.6.1.tgz#36559e70db25d077b005f0278c8e17a679686adb"
+  dependencies:
+    atom-package-path "^1.1.0"
+    sb-fs "^3.0.0"
+    semver "^5.3.0"
+
+atom-package-path@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/atom-package-path/-/atom-package-path-1.1.0.tgz#b51fedbc00e7c8ce5223d0d803db7a3f4f69614f"
+  dependencies:
+    sb-callsite "^1.1.2"
+
 balanced-match@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/balanced-match/-/balanced-match-1.0.0.tgz#89b4d199ab2bee49de164ea02b89ce462d71b767"
@@ -191,6 +205,10 @@ is-buffer@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/is-buffer/-/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
 
+is-utf8@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/is-utf8/-/is-utf8-0.2.1.tgz#4b0da1442104d1b336340e80797e865cf39f7d72"
+
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -272,6 +290,10 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
+sb-callsite@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/sb-callsite/-/sb-callsite-1.1.2.tgz#28191fb66d64e3a3ee92084a95a90fcb5102243b"
+
 sb-exec@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/sb-exec/-/sb-exec-4.0.0.tgz#46747f0df162626c16ebf0fea42245ad1aa859ca"
@@ -279,6 +301,13 @@ sb-exec@^4.0.0:
     consistent-env "^1.2.0"
     lodash.uniq "^4.5.0"
     sb-npm-path "^2.0.0"
+
+sb-fs@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-3.0.0.tgz#fbdcdd3010e80a1b8e27490cef336064974203b8"
+  dependencies:
+    sb-promisify "^2.0.1"
+    strip-bom-buf "^1.0.0"
 
 sb-memoize@^1.0.2:
   version "1.0.2"
@@ -295,6 +324,10 @@ sb-promisify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
 
+semver@^5.3.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
+
 simple-html-tokenizer@^0.4.1:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.4.3.tgz#9b00b766e30058b4bb377c0d4f97566a13ab1be1"
@@ -308,6 +341,12 @@ source-map@^0.4.4:
 source-map@~0.5.1:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+strip-bom-buf@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/strip-bom-buf/-/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
+  dependencies:
+    is-utf8 "^0.2.1"
 
 strip-bom@^3.0.0:
   version "3.0.0"
