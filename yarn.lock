@@ -107,12 +107,12 @@ atom-linter@^10.0.0:
     sb-promisify "^2.0.1"
     tmp "~0.0.28"
 
-atom-package-deps@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.0.0.tgz#bd54b734b9288ed54a7b0b16995bf3ce7a45ca2f"
+atom-package-deps@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/atom-package-deps/-/atom-package-deps-5.1.0.tgz#be493f783d9c0a8b5b7f2c4ab0ddcc778035f878"
   dependencies:
-    sb-fs "^3.0.0"
-    semver "^5.6.0"
+    sb-fs "^4.0.0"
+    semver "^6.0.0"
 
 balanced-match@^1.0.0:
   version "1.0.0"
@@ -765,11 +765,10 @@ sb-exec@^4.0.0:
     lodash.uniq "^4.5.0"
     sb-npm-path "^2.0.0"
 
-sb-fs@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-3.0.0.tgz#fbdcdd3010e80a1b8e27490cef336064974203b8"
+sb-fs@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/sb-fs/-/sb-fs-4.0.0.tgz#b84ca0045f09d4643304113d4e0543b508a56f73"
   dependencies:
-    sb-promisify "^2.0.1"
     strip-bom-buf "^1.0.0"
 
 sb-memoize@^1.0.2:
@@ -787,9 +786,9 @@ sb-promisify@^2.0.1:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/sb-promisify/-/sb-promisify-2.0.2.tgz#4277a54754488aa9675d886e354db894c9bdc981"
 
-semver@^5.6.0:
-  version "5.6.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.6.0.tgz#7e74256fbaa49c75aa7c7a205cc22799cac80004"
+semver@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-6.0.0.tgz#05e359ee571e5ad7ed641a6eec1e547ba52dea65"
 
 set-value@^0.4.3:
   version "0.4.3"
