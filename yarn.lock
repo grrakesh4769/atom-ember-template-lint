@@ -2,40 +2,40 @@
 # yarn lockfile v1
 
 
-"@glimmer/compiler@^0.38.0":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/compiler/-/compiler-0.38.1.tgz#03b43a2a8a04b1ed39517862158e8897d0f6798b"
+"@glimmer/compiler@^0.38.5-alpha.1":
+  version "0.38.5-alpha.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/compiler/-/compiler-0.38.5-alpha.1.tgz#bd34a40d167c0bd589f8b9084adf49d771466747"
   dependencies:
-    "@glimmer/interfaces" "^0.38.1"
-    "@glimmer/syntax" "^0.38.1"
-    "@glimmer/util" "^0.38.1"
-    "@glimmer/wire-format" "^0.38.1"
+    "@glimmer/interfaces" "^0.38.5-alpha.1"
+    "@glimmer/syntax" "^0.38.5-alpha.1"
+    "@glimmer/util" "^0.38.5-alpha.1"
+    "@glimmer/wire-format" "^0.38.5-alpha.1"
 
-"@glimmer/interfaces@^0.38.1":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.38.1.tgz#5b1c174363396b99d6a6bddb35538151e4c4c989"
+"@glimmer/interfaces@^0.38.5-alpha.1":
+  version "0.38.5-alpha.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.38.5-alpha.1.tgz#c1bbb7604c272fa879cd00dcbb9191efb22204a2"
   dependencies:
-    "@glimmer/wire-format" "^0.38.1"
+    "@glimmer/wire-format" "^0.38.5-alpha.1"
     "@simple-dom/interface" "1.4.0"
 
-"@glimmer/syntax@^0.38.1":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.38.1.tgz#625875da5f1e827ad5806fdaa23e2cd00369fda8"
+"@glimmer/syntax@^0.38.5-alpha.1":
+  version "0.38.5-alpha.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.38.5-alpha.1.tgz#5b2c13aff088a39c326e142b465c57e7e3cf8ba9"
   dependencies:
-    "@glimmer/interfaces" "^0.38.1"
-    "@glimmer/util" "^0.38.1"
+    "@glimmer/interfaces" "^0.38.5-alpha.1"
+    "@glimmer/util" "^0.38.5-alpha.1"
     handlebars "^4.0.6"
     simple-html-tokenizer "^0.5.6"
 
-"@glimmer/util@^0.38.1":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.38.1.tgz#41ca0544f95ec980bc492f4f0e5a85564964c028"
+"@glimmer/util@^0.38.5-alpha.1":
+  version "0.38.5-alpha.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.38.5-alpha.1.tgz#2508e5015ab3a42262bf608d885233115488148e"
 
-"@glimmer/wire-format@^0.38.1":
-  version "0.38.1"
-  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.38.1.tgz#a77963cf7193ab23cbce242116aac613f17cd3dc"
+"@glimmer/wire-format@^0.38.5-alpha.1":
+  version "0.38.5-alpha.1"
+  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.38.5-alpha.1.tgz#f4b8476622cbe0b8cc0b0422677866d524aad2a1"
   dependencies:
-    "@glimmer/util" "^0.38.1"
+    "@glimmer/util" "^0.38.5-alpha.1"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -261,11 +261,11 @@ dir-glob@^2.2.1:
   dependencies:
     path-type "^3.0.0"
 
-ember-template-lint@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.1.0.tgz#312e101728452bf082f54cbe429ed9b52273ba64"
+ember-template-lint@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.2.0.tgz#ae360e93cd225a936f6f9c7b66f39d71f8bdf1b8"
   dependencies:
-    "@glimmer/compiler" "^0.38.0"
+    "@glimmer/compiler" "^0.38.5-alpha.1"
     chalk "^2.0.0"
     globby "^9.0.0"
     minimatch "^3.0.4"
