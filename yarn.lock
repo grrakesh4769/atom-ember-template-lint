@@ -249,9 +249,9 @@ dir-glob@^2.2.1:
   dependencies:
     path-type "^3.0.0"
 
-ember-template-lint@^1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.5.0.tgz#b889708123560e8428a5e0e97176c037bb5613fc"
+ember-template-lint@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.5.1.tgz#ae363d93578e9c99116563ad3e0466dd4eaf70ed"
   dependencies:
     "@glimmer/compiler" "^0.41.0"
     chalk "^2.0.0"
