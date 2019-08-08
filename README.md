@@ -1,4 +1,4 @@
-# atom-ember-template-lint
+# [atom-ember-template-lint](https://atom.io/packages/atom-ember-template-lint)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgrrakesh4769%2Fatom-ember-template-lint.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgrrakesh4769%2Fatom-ember-template-lint?ref=badge_shield)
 
 Atom linter for Ember templates
