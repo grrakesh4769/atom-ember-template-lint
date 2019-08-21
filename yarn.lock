@@ -2,38 +2,38 @@
 # yarn lockfile v1
 
 
-"@glimmer/compiler@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/compiler/-/compiler-0.41.0.tgz#e7a719ff4215a1a5fa6af8f8cb5e6d634a2f7972"
+"@glimmer/compiler@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/compiler/-/compiler-0.42.0.tgz#8c3852e27177bbecd3eed5bdbd15ec729e09ef8a"
   dependencies:
-    "@glimmer/interfaces" "^0.41.0"
-    "@glimmer/syntax" "^0.41.0"
-    "@glimmer/util" "^0.41.0"
-    "@glimmer/wire-format" "^0.41.0"
+    "@glimmer/interfaces" "^0.42.0"
+    "@glimmer/syntax" "^0.42.0"
+    "@glimmer/util" "^0.42.0"
+    "@glimmer/wire-format" "^0.42.0"
 
-"@glimmer/interfaces@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.41.0.tgz#3f571a181025406f29faed9006d0a914afb577b1"
+"@glimmer/interfaces@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.42.0.tgz#525f5352dd78011eef7b3eb0e3fb61b981c94319"
 
-"@glimmer/syntax@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.41.0.tgz#af033e48475e29a4784900c13695925d752f462d"
+"@glimmer/syntax@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.42.0.tgz#65d38f6f6339e0e00cfbb34bc08ed3ff94f080c6"
   dependencies:
-    "@glimmer/interfaces" "^0.41.0"
-    "@glimmer/util" "^0.41.0"
+    "@glimmer/interfaces" "^0.42.0"
+    "@glimmer/util" "^0.42.0"
     handlebars "^4.0.13"
-    simple-html-tokenizer "^0.5.7"
+    simple-html-tokenizer "^0.5.8"
 
-"@glimmer/util@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.41.0.tgz#743fa455d1d7fa0ce29688e932c231a99c0752cf"
+"@glimmer/util@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.42.0.tgz#3f3a647ecaa16bbe4fc0545923d3b0a527319d78"
 
-"@glimmer/wire-format@^0.41.0":
-  version "0.41.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.41.0.tgz#a50edcdcae0d11e68dffa04d96dd37a007f708b4"
+"@glimmer/wire-format@^0.42.0":
+  version "0.42.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/wire-format/-/wire-format-0.42.0.tgz#53f9a6cbcb9882af3a55aed83929f71799f73fab"
   dependencies:
-    "@glimmer/interfaces" "^0.41.0"
-    "@glimmer/util" "^0.41.0"
+    "@glimmer/interfaces" "^0.42.0"
+    "@glimmer/util" "^0.42.0"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -249,11 +249,11 @@ dir-glob@^2.2.1:
   dependencies:
     path-type "^3.0.0"
 
-ember-template-lint@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.5.2.tgz#914811b1d1715508d08eff470eb3c19ae7b9027f"
+ember-template-lint@^1.5.3:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.5.3.tgz#0ebcd9e48e0b9c385ebdce3b56a0d38de804e598"
   dependencies:
-    "@glimmer/compiler" "^0.41.0"
+    "@glimmer/compiler" "^0.42.0"
     chalk "^2.0.0"
     globby "^9.0.0"
     minimatch "^3.0.4"
@@ -796,9 +796,9 @@ set-value@^2.0.0:
     is-plain-object "^2.0.3"
     split-string "^3.0.1"
 
-simple-html-tokenizer@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.7.tgz#8eca336ecfbe2b3c6166cbb31b2682088de79f40"
+simple-html-tokenizer@^0.5.8:
+  version "0.5.8"
+  resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.8.tgz#3417382f75954ee34515cc4fd32d9918e693f173"
 
 slash@^2.0.0:
   version "2.0.0"
