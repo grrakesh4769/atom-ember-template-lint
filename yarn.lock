@@ -2,22 +2,22 @@
 # yarn lockfile v1
 
 
-"@glimmer/interfaces@^0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.43.0.tgz#a7a38c2476f87d68d6dc894840df17bc8b92de33"
+"@glimmer/interfaces@^0.44.0":
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/interfaces/-/interfaces-0.44.0.tgz#0896204815f05fd8907b5703cbaee9d1b9edf5d3"
 
-"@glimmer/syntax@^0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.43.0.tgz#d6e30c857c575eeac25b3f7ffab2cfee43685726"
+"@glimmer/syntax@^0.44.0":
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/syntax/-/syntax-0.44.0.tgz#66a4d0a5047becb210259e7678b6efa9c14dbc6f"
   dependencies:
-    "@glimmer/interfaces" "^0.43.0"
-    "@glimmer/util" "^0.43.0"
-    handlebars "^4.0.13"
+    "@glimmer/interfaces" "^0.44.0"
+    "@glimmer/util" "^0.44.0"
+    handlebars "^4.5.1"
     simple-html-tokenizer "^0.5.8"
 
-"@glimmer/util@^0.43.0":
-  version "0.43.0"
-  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.43.0.tgz#dd28cd1a233c25427032437b9050c6fa6d098e2c"
+"@glimmer/util@^0.44.0":
+  version "0.44.0"
+  resolved "https://registry.yarnpkg.com/@glimmer/util/-/util-0.44.0.tgz#45df98d73812440206ae7bda87cfe04aaae21ed9"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -233,11 +233,11 @@ dir-glob@^2.2.1:
   dependencies:
     path-type "^3.0.0"
 
-ember-template-lint@^1.8.1:
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.8.1.tgz#017f7c9d55faae8478932108e86bef7537804237"
+ember-template-lint@^1.8.2:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-1.8.2.tgz#5e124b75920088c10c5e7b162fb6775440c0b19b"
   dependencies:
-    "@glimmer/syntax" "^0.43.0"
+    "@glimmer/syntax" "^0.44.0"
     chalk "^2.0.0"
     globby "^9.0.0"
     minimatch "^3.0.4"
@@ -358,9 +358,9 @@ globby@^9.0.0:
     pify "^4.0.1"
     slash "^2.0.0"
 
-handlebars@^4.0.13:
-  version "4.1.2"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.1.2.tgz#b6b37c1ced0306b221e094fc7aca3ec23b131b67"
+handlebars@^4.5.1:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.5.3.tgz#5cf75bd8714f7605713511a56be7c349becb0482"
   dependencies:
     neo-async "^2.6.0"
     optimist "^0.6.1"
