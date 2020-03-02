@@ -210,21 +210,20 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
-ember-template-lint@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-2.0.1.tgz#80f72e8964526819172c95ff597edd1a4cfeb0d8"
+ember-template-lint@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/ember-template-lint/-/ember-template-lint-2.2.0.tgz#e488f37ab5b837f8ed7815501ab00c508abbedc5"
   dependencies:
     chalk "^3.0.0"
-    ember-template-recast "^4.1.0"
+    ember-template-recast "^4.1.1"
     find-up "^4.1.0"
     globby "^11.0.0"
     micromatch "^4.0.2"
     resolve "^1.15.1"
-    strip-bom "^4.0.0"
 
-ember-template-recast@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-4.1.0.tgz#7d72fc40c56d7d0f3fa34b50a67608ff7e595faa"
+ember-template-recast@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/ember-template-recast/-/ember-template-recast-4.1.1.tgz#25dca7a460a3c9a4777945efd56ecdfbc2c40739"
   dependencies:
     "@glimmer/syntax" "^0.47.9"
     async-promise-queue "^1.0.5"
@@ -581,10 +580,6 @@ strip-bom-buf@^1.0.0:
   resolved "https://registry.yarnpkg.com/strip-bom-buf/-/strip-bom-buf-1.0.0.tgz#1cb45aaf57530f4caf86c7f75179d2c9a51dd572"
   dependencies:
     is-utf8 "^0.2.1"
-
-strip-bom@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/strip-bom/-/strip-bom-4.0.0.tgz#9c3505c1db45bcedca3d9cf7a16f5c5aa3901878"
 
 supports-color@^5.3.0:
   version "5.5.0"
